@@ -9,8 +9,9 @@ hr {
 
 /* Carusel */
 .carousel-item {
-  height: 100vh;
+  height: 70vh;
   min-height: 300px;
+  width: 100%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,7 +21,7 @@ hr {
 }
 
 .carousel-caption {
-  bottom: 35%;
+  /* bottom: 35%; */
   text-align: left;
 }
 
