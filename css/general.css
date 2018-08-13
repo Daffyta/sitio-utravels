@@ -1,0 +1,50 @@
+/* Paquetes */
+.paquete {
+  padding: 3%;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+
+/* Certificaciones */
+#certificaciones {
+  padding-bottom: 3%;
+}
+
+/* Proveedores */
+#proveedores {
+  background-image: url("../assets/img/textura1.jpg");
+  padding: 2%;
+}
+
+/* Pago */
+#pago {
+  background-color: #969696;
+  padding-top: 2%;
+  color: #fff;
+}
+
+#pago ul {
+  display: flex;
+  list-style: none;
+}
+
+#pago ul li img {
+  width: 130px;
+}
+
+#pago ul li {
+  margin-right: 10%;
+}
+
+@media (max-width: 600px) {
+  #certificaciones img {
+    width: 100%;
+  }
+
+  #pago ul li img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.description-w {
+  background-color: rgba(255, 255, 255, 0.74);
+  padding: 5%;
+  color: #000;
+}
+
+.description-w img {
+  margin-bottom: 3%;
+}
+
+/* Bodas */
+
+#realizar-boda{
+  margin: 3% 0;
+}
+
+.cita {
+  padding: 2%;
+}
+
+.ges-ad-lo {
+  margin-top: 4%;
+}
+
+.ges-ad-lo h4{
+  margin-bottom: 5%;
+  color:#dc3545;
+}
+
+/* Opciones */
+#opciones h2 {
+  margin-bottom: 3%;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>U-Travels</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/interiores.css">
+  <!-- CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Oswald" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo_utravels.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experiencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destinos">Destinos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="wedding.html">Wedding</a>
+            <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#te-llevamos">Te llevamos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/utravels/"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/utravels2013"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/utravels2013/"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('../assets/img/wedding/boda0.jpg')">
+
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="col-md-6 description-w">
+              <div class="col-md-12 text-center">
+                <a href="#"><img src="../assets/img/logo_utravels.png" alt=""></a>
+              </div>
+              <h5>Vive la experiencia inolvidable de celebrar el dia de tu Boda en la playa, frente al mar y el cielo, como testigos principales de esta union.
+                 Acompañados de tus seres queridos y amigos mas cercanos, con quien disfrutarás de momentos inolvidables llenos de emoción.</h5>
+              <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-danger">PIDE TU CITA</button>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../assets/img/wedding/boda1.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="col-md-6 description">
+               <h3>Bacalar:</h3>
+               <h5>Descubre la magia de este paradisíaco pueblo de pescadores, lleno de historia y encanto cultural, donde emerge una laguna
+                 espectacular de igual nombre, donde podrás ser testigo de los encantadores tonos de color azul que noblemente te ofrece esta belleza.</h5>
+             </div> -->
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../assets/img/wedding/boda2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="col-md-6 description">
+               <h3>Machu Picchu:</h3>
+               <h5>Sienta la energía de uno de los lugares más espirituales del mundo. Disfrute de una de las mejores caminatas con un final de ensueño
+                 en la ¨Puerta del Sol¨, el antiguo ingreso principal a Machu Picchu.</h5>
+             </div> -->
+          </div>
+        </div>
+        <!-- Slide Fourth - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../assets/img/wedding/boda3.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="col-md-6 description">
+               <h3>Toscana:</h3>
+               <h5>Recorra los campos de la toscana y sus pueblos medievales. Transpórtese al pasado y disfrute de su rica gastronomía artesanal,
+                 mientras degusta de una variedad de vinos que ofrece la zona.</h5>
+             </div> -->
+          </div>
+        </div>
+        <!-- Slide Five - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../assets/img/wedding/boda4.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <div class="col-md-6 description">
+               <h3>Toscana:</h3>
+               <h5>Recorra los campos de la toscana y sus pueblos medievales. Transpórtese al pasado y disfrute de su rica gastronomía artesanal,
+                 mientras degusta de una variedad de vinos que ofrece la zona.</h5>
+             </div> -->
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+    </div>
+  </header>
+
+  <section id="tipo-boda">
+    <div class="container">
+      <h2 class="text-center text-uppercase">bodas católicas</h2>
+      <div class="parrafo-wedd text-justify">
+        <p>En U Wedding & Travels nuestro principal objetivo es brindar a nuestros clientes una de las mejores experiencias de sus vidas: la unión matrimonial. Más de 20 años de experiencia, profesionalismo y vanguardia nos respaldan en la organización y participación de este tipo de eventos, asimismo, contamos con la Certificación Internacional como Wedding and Event Planner. </p>
+        <p>Por ello, nos encargamos de ofrecerte una boda inolvidable basándonos en los diversos gustos y preferencias al momento de elegir la ceremonia de tus sueños, pues contamos con distintas opciones. La boda católica es una de las más emblemáticas y tradicionales por ser Dios, el mayor testigo de esta unión en la que quedará perpetuado el amor de la pareja.  </p>
+        <p>Las bodas católicas tienen un gran peso simbólico, pues es la máxima expresión del amor, la fidelidad y la unión eterna entre lo terrenal y lo divino. Además de incluir otros aspectos importantes en el ritual como: la ceremonia y el espacio, es decir, la iglesia conformada por su arte pictórico y arquitectónico, la decoración de las flores en el pasillo que recorre la pareja hasta llegar al altar e incluso el estilo del vestido y el ramo de la novia, formando así, un ambiente de espiritualidad para la pareja y los asistentes.</p>
+        <p>A pesar de que hoy en día existe una gran variedad de ceremonias para unir la vida con el ser amado, las bodas católicas aún conservan el gran y especial significado por su procedimiento: las oraciones, los cantos, la bendición e intercambio de anillos y arras, etcétera; es una gran opción si tú y tu pareja son devotos de la fe católica y quieren seguir con esta tradición. </p>
+        <p>Puedes encontrar en En U Wedding & Travels, la formalidad y la garantía de nuestro servicio a través un personal ampliamente capacitado y calificado, además de obtener las mejores tarifas para este tipo de boda que van desde ($ 10,000 pesos)</p>
+        <p>Vive la experiencia de conservar en tu memoria uno de los días más importantes de tu vida solo disfrutando del momento mientras nosotros nos encargamos de la organización del evento. </p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="promos-paquetes">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Promociones y paquetes</h2>
+    </div>
+    <div class="container paquete">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../assets/img/wedding/boda0.jpg" width="100%" height="100%"alt="">
+          </div>
+          <div class="col-md-6">
+            <h3>Paquete de Bodas</h3>
+            <ul>
+              <li>Honorarios del juez o sacerdote</li>
+              <li>Coordinador de bodas</li>
+              <li>Montaje especial para la ceremonia</li>
+              <li>Música de fondo para la ceremonia</li>
+              <li>Botella de vino espumoso para el brindis</li>
+              <li>Cena privada para los invitados</li>
+              <li>Pastel o barra de postres</li>
+              <li>Barra libre durante 4hrs durante la cena</li>
+              <li>Masaje sueco de 50 minutos para la pareja</li>
+              <li>Botella de vino espumoso y frutero para los novios la noche de bodas</li>
+              <li>Desayuno en la habitación para los novios al día siguiente de la boda</li>
+              <li>Habitación de los novios en cortesía y decoración  especial para la noche de bodas</li>
+              <li>Prueba de peinado y maquillaje</li>
+              <li>Peinado y maquillaje de la novia</li>
+              <li>Ramo y boutonnire</li>
+              <li>Late check-out para  la pareja a las 4:00pm</li>
+              <li>Cena romántica para los novios y regalo sorpresa</li>
+              <li>50% de descuento para dos habitaciónes</li>
+              <li>Pregunta por las inclusiones del paquete tu BODA DE REGALO</li>
+            </ul>
+            <p><small>VIGENCIA DEL 03 DE ENERO AL 20 DE DICIEMBRE, 2019</small></p>
+            <p><small>Tarifas de habitación por persona por noche en pesos mexicanos exclusivas para el evento de bodas. Se necesita mínimo el 80% de los invitados estén hospedados en el hotel.
+            Mínimo 25 habs. por dos noches. *Promoción tu BODA DE REGALO de abril 29 al 30 de Noviembre 2019. No aplica Julio 13 a Agosto 18 de 2019 puentes ni días festivos oficiales.
+          Estancia mínima requerida, pregunta por las restricciones. Solicita al hotel los requisitos legales para llevar a cabo la boda. Infórmate de nuestro increíble "Todo incluido".
+            Tarifas comisionables para agencias de viajes. Aplican restricciones.</small></p>
+            <button type="button" class="btn btn-danger">COTIZAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container paquete">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Boda Complementaria</h3>
+            <ul>
+              <li>Locacion para la ceremonia</li>
+              <li>Juez de paz o ministro*</li>
+              <li>Sillas blancas avant-garde</li>
+              <li>Ramo de novia con 20 rosas (rojas, blancas, ivory o rosas)</li>
+              <li>Boutonnire para el novio deacuerdo al ramo</li>
+              <li>Estructura color chocolate con tela hilada y decoración floral con orquídeas dendrodium</li>
+              <li>Podium color chocolate con dos esferas con claveles</li>
+              <li>Ramas de plata para decorar la estructura</li>
+              <li>Pastel de bodas con tres tallos de flores naturales</li>
+              <li>Análisis de sangre para la boda civil*</li>
+              <li>Vino espumoso para brindar durante la ceremonia</li>
+              <li>Reservación para la cena de boda en Restaurante (Máximo 30 personas)</li>
+              <li>Desayuno especial para los novios después de la boda</li>
+              <li>"My palace wedding website" personal</li>
+              <li>CD player disponible durante la ceremonia</li>
+              <li>Coordinadora de boda</li>
+              <li>Testigos bajo solicitud (en caso de ser requeridos)</li>
+              <li>Paquete lunamielero</li>
+              <li>Para ceremonias civiles favor de considerar cargo adicional</li>
+              <li>**Reservaciones de cena varia en cada Resort</li>
+            </ul>
+            <p><small>El paquete complementario aplica únicamente para estancias de 3 noches, para poder garantizar el bloqueo de ceremonia requieren
+            un deposito  de 250.00 dlls, el cual puede ser utilizado para el pago de servicios adicionales. (No es reembolsable) </small></p>
+            <button type="button" class="btn btn-danger">COTIZAR</button>
+          </div>
+          <div class="col-md-6">
+            <img src="../assets/img/wedding/boda0.jpg" width="100%" height="100%"alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <hr>
+
+  <section id="certificaciones">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Certificaciones</h2>
+      <img src="../assets/img/wedding/certificaciones.png" alt="certificaciones">
+      <p class="text-justify"> Somos una empresa enfocada en la industria del turismo que brinda sus servicios con integridad y responsabilidad. Contamos con certificaciones
+  internacionales entre las que destacan el Instituto Iberoamericano Weeding & Planner, Gay Wedding Planner, Unión Euroamericana Event Planner,
+  que avalan el profesionalismo de nuestro trabajo. Asimismo, el personal encargado de organizar la boda de tus sueños está altamente calificado
+  para que solo disfrutes del que será el mejor día de tu vida sin preocuparte de lo demás.</p>
+    </div>
+  </section>
+
+  <section id="proveedores">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="text-uppercase">Principales Proveedores</h2>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Barceló hotel group</li>
+            <li>Grupo Posadas</li>
+            <li>El Cid Resorts</li>
+            <li>Magnicharters</li>
+            <li>Hard Rock Hotel</li>
+            <li>Riu Hotels & Resort</li>
+            <li>Real Resorts</li>
+            <li>JW Marriott Hotels & Resorts</li>
+            <li>Wyndham Hotels & Resorts</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Hoteles Sunscape Resorts & Spa</li>
+            <li>Zoetry Wellness & Spa Resorts</li>
+            <li>Secrets Resorts & Spas</li>
+            <li>Dreams Resorts & Spa</li>
+            <li>Now Resorts & Spas</li>
+            <li>AM Resorts</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul>
+            <li>Volaris</li>
+            <li>AeroMexico</li>
+            <li>Delta</li>
+            <li>Vivaaerobus.com</li>
+            <li>Interjet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pago">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3">
+            <h2>Formas de pago</h2>
+          </div>
+          <div class="col-md-7">
+            <div class="row">
+              <ul>
+                <li><img src="../assets/img/wedding/oxxo.svg" alt=""></li>
+                <li><img src="../assets/img/wedding/transferencia.png" alt=""></li>
+                <li><img src="../assets/img/wedding/visa.png" alt=""></li>
+                <li><img src="../assets/img/wedding/mastercard.png" alt=""></li>
+              </ul>
+            </div>
+            <p class="text-right"><small>**Aplica un cargo adicional del 3% en tarjetas Visa y Mastercard. Contáctanos para aclarar cualquier duda. </small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3 text-uppercase contact">
+            <h4>Contacto</h4>
+            <h6>Aviso de Privacidad</h6>
+          </div>
+          <div class="col-md-7 direction">
+            <p>Av. Eugenio Garza Sada #3820 Piso 8 <br> Torre Micrópolis, Monterrey, Nuevo León. 64780. <br> T: (81) 2140 3720 - info@utravels.mx
+            </p>
+          </div>
+          <div class="col-md-2 redes">
+            <a class="nav-link" href="https://www.facebook.com/utravels/"><i class="fab fa-facebook-f"></i></a>
+            <a class="nav-link" href="https://twitter.com/utravels2013"><i class="fab fa-twitter"></i></a>
+            <a class="nav-link" href="https://www.instagram.com/utravels2013/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section id="copyrigth">
+    <div class="container text-uppercase">
+      <div class="row">
+        <div class="col-md-4">
+          <p><small>Design by <a href="http://www.cosmopolitan-design.co/">COSMOPOLITAN DESIGN CO.</a></small></p>
+        </div>
+        <div class="col-md-6">
+          <p><small>Copyright © 2012 - 2018 <a target="_blank" href="/" title="Utravels | Wedding & Travels">UTRAVELS | WEDDING & TRAVELS</a></small></p>
+        </div>
+        <div class="col-md-2">
+          <a href="#"><i class="far fa-arrow-alt-circle-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scrips -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
