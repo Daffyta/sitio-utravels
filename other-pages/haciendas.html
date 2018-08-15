@@ -237,16 +237,75 @@ para que solo disfrutes del que será el mejor día de tu vida sin preocuparte d
         <div class="row">
           <div class="col-md-3 text-uppercase contact">
             <h4>Contacto</h4>
-            <h6>Aviso de Privacidad</h6>
+            <a href="../assets/utravels_aviso_de_privacidad.pdf"><h6>Aviso de Privacidad</h6></a>
           </div>
-          <div class="col-md-7 direction">
-            <p>Av. Eugenio Garza Sada #3820 Piso 8 <br> Torre Micrópolis, Monterrey, Nuevo León. 64780. <br> T: (81) 2140 3720 - info@utravels.mx
-            </p>
+          <div class="col-md-6 direction">
+            <form class="needs-validation" method="post" novalidate>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <!-- <label for="validationCustom01"></label> -->
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre Completo" value="" required>
+                  <div class="invalid-feedback">
+                    Coloca aquí tu nombre.
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <!-- <label for="validationCustom01"></label> -->
+                  <input type="number" class="form-control" id="validationCustom01" placeholder="Teléfono" value="" required>
+                  <div class="invalid-feedback">
+                    Coloca aquí un número donde localizarte.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <!-- <label for="validationCustom01"></label> -->
+                  <input type="email" class="form-control" id="validationCustom01" placeholder="Correo electrónico" value="" required>
+                  <div class="invalid-feedback">
+                    Coloca aquí un correo.
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <!-- <label for="validationCustom01"></label> -->
+                  <textarea class="form-control" id="validationCustom01" rows="3" placeholder="Platicanos tus planes de viaje o evento." required></textarea>
+                  <div class="invalid-feedback">
+                    Cuentanos un poco más.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12 row">
+                  <div class="col-md-6">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label class="form-check-label" for="invalidCheck">
+                        Acepto términos y condiciónes
+                      </label>
+                      <div class="invalid-feedback">
+                        Consulta nuestro aviso de Privacidad.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <button class="btn btn-danger float-right" type="submit">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="col-md-2 redes">
-            <a class="nav-link" href="https://www.facebook.com/utravels/"><i class="fab fa-facebook-f"></i></a>
-            <a class="nav-link" href="https://twitter.com/utravels2013"><i class="fab fa-twitter"></i></a>
-            <a class="nav-link" href="https://www.instagram.com/utravels2013/"><i class="fab fa-instagram"></i></a>
+          <div class="col-md-3 redes text-right">
+            <div class="col-md-12">
+              <p>Av. Eugenio Garza Sada #3820 Piso 8 Torre Micrópolis, Monterrey, Nuevo León. 64780. T: (81) 2140 3720 - info@utravels.mx
+              </p>
+              <!-- <br> -->
+              <div class="redes float-right">
+                <a class="nav-link" href="https://www.facebook.com/utravels/"><i class="fab fa-facebook-f"></i></a>
+                <a class="nav-link" href="https://twitter.com/utravels2013"><i class="fab fa-twitter"></i></a>
+                <a class="nav-link" href="https://www.instagram.com/utravels2013/"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -273,6 +332,6 @@ para que solo disfrutes del que será el mejor día de tu vida sin preocuparte d
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
 </body>
 </html>
